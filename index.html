@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>fb comments directive for ng - CodePen</title>
+
+</head>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+<div ng-app="fbtest" ng-controller="FBCtrl">
+
+  <fb-comment href="http://example.com/comments"
+              numposts="1"
+              colorscheme="light"
+              order=""
+              width="720">
+  </fb-comment>
+
+</div>
+
+  <script src="js/index.js"></script>
+  <script src="js/fb_directive.js"></script>
+
+</body>
+
+</html>
